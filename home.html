@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="icon" type="image/x-icon" href="/images/wiibilogo.png" />
+    <title>Wiibi Energy</title>
+  </head>
+  <body>
+    <!--top nav bar-->
+    
+    <nav class="navbar">
+      <ul class="top-nav">
+        <span class="brand-name">
+          <img src="images/wiibilogo.png" alt="" />
+          <a href="#">Wiibi Energy</a></span
+        >
+        <span>
+          <li><a href="home.html" class="nav-link" active>Home</a></li>
+
+          <li><a href="packages.html" class="nav-link">Packages</a></li>
+          <li><a href="projects.html" class="nav-link">Projects</a></li>
+          <li><a href="services.html" class="nav-link">Services</a></li>
+          <li><a href="about.html" class="nav-link">About Us</a></li>
+          <li>
+            <a href="http://wiibi.org/" class="nav-link">Contact Us</a>
+          </li></span
+        >
+        <span onclick=showSidebar() class="menu-btnn" ><svg xmlns="http://www.w3.org/2000/svg" height="29" viewBox="0 -960 960 960" width="29" fill="#000000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></span>
+        <a href="#" class="but">Get a Quote</a>
+      </ul>
+       <ul class="side-bar">
+    <li onclick=hideSidebar() >   <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg> </li>
+          <li><a href="home.html" class="nav-link" active>Home</a></li>
+
+          <li><a href="packages.html" class="nav-link">Packages</a></li>
+          <li><a href="projects.html" class="nav-link">Projects</a></li>
+          <li><a href="services.html" class="nav-link">Services</a></li>
+          <li><a href="about.html" class="nav-link">About Us</a></li>
+          <li><a href="http://wiibi.org/" class="nav-link">Contact Us</a></li></span
+        >
+      
+      </ul>
+    </nav>
+    <!--Home-->
+    <div id="#home">
+      <div class="energy-saving">
+        <div class="black"></div>
+        <div class="e-head">
+          <p>Energy Saving Solutions</p>
+        </div>
+        <h1>Lower Your Energy Bills With Solar Power</h1>
+        <p class="e-p">
+          Reliable, affordable, and sustainable solar solutions for homes and
+          businesses.
+        </p>
+        <input type="text" placeholder="Your Email" class="input-text" /> <br />
+        <input
+          type="submit"
+          value="Download Our Free Solar Guide"
+          class="input-btn"
+        />
+      </div>
+      <!--beginning of our results-->
+      <div class="our-results">
+        <div class="results-head">Our Results Speaks For Us</div>
+        <div class="para"><h2>So Far So Good...</h2></div>
+        <div class="stats">
+          <div>
+            <h1>7</h1>
+            <p>States Covered</p>
+          </div>
+          <div>
+            <h1>15 MWp</h1>
+            <p>Installed</p>
+          </div>
+          <div>
+            <h1>25 homes</h1>
+            <p>Upgraded to solar</p>
+          </div>
+          <div>
+            <h1>6,200 tons</h1>
+            <p>CO₂ saved</p>
+          </div>
+          <div>
+            <h1>99.9%</h1>
+            <p>Average Uptime</p>
+          </div>
+          <div>
+            <h1>3-5 years</h1>
+            <p>Payback</p>
+          </div>
+        </div>
+        <div class="join-list">
+          <a href="#" class="join-list-p"
+            >Join Our list of Happy Customers <i class="fas fa-arrow-right"></i
+          ></a>
+          <a href="#" class="quote"
+            >Get A Quote <i class="fas fa-angles-right"></i
+          ></a>
+        </div>
+      </div>
+
+      <!--begining of commitment-->
+      <div class="commitment">
+        <div class="commit-head">Our Commitment</div>
+        <!--the div that encompasss all the flex grids-->
+        <div class="commit-info">
+          <div class="info-boxs">
+            <div class="top-border"></div>
+            <h1>Reducing Energy Costs</h1>
+            <p>
+              Our solar power systems help clients reduce their energy expenses
+              by up to 30%, allowing them to reinvest savings into business
+              growth.
+            </p>
+          </div>
+          <!--end of div1-->
+          <div class="info-boxs">
+            <div class="top-border"></div>
+            <h1>Ensuring Stable Power Supply</h1>
+            <p>
+              With a 99% uptime, our solar solutions provide reliable
+              electricity, eliminating disruptions caused by power outages
+            </p>
+          </div>
+          <!--end of div2-->
+
+          <div class="info-boxs">
+            <div class="top-border"></div>
+            <h1>Promoting Environmental Sustainability</h1>
+            <p>
+              By reducing dependence on polluting diesel generators, we assist
+              clients in cutting their carbon emissions.
+            </p>
+          </div>
+          <div><!--end of it --></div>
+        </div>
+      </div>
+      <div class="faq">
+        <div class="faq-first">
+          <p class="faq-head">FAQ</p>
+          <div class="faq-li">
+            <h1>Questions we have been asked...</h1>
+            <p>For Clarity and enquiries, Reach out to us</p>
+            <a href="#">Talk to Us <i class="fas fa-phone"></i></a>
+          </div>
+        </div>
+        <div class="faq-questions">
+          <p class="hj">Can i speak to your customer service? <span>+</span></p>
+          <p>Can I get a payment plan for your products?<span>+</span></p>
+          <p>
+            What platforms and devices are compatible with Wiibi products?<span
+              >+</span
+            >
+          </p>
+          <p>Can I get a payment plan for your products?<span>+</span></p>
+          <p>Can I get a payment plan for your products?<span>+</span></p>
+          <p>
+            What platforms and devices are compatible with Wiibi products?<span
+              >+</span
+            >
+          </p>
+        </div>
+      </div>
+
+      <!--footer-->
+      <div class="footer">
+        <div class="footer-head">Our Motto : Empowering tomorrow , today.</div>
+        <div class="footer-info">
+          <span>Wiibi Limited </span>
+          <span class="footer-trio">
+            <span><a href="#packages"> Packages & Pricing</a></span>
+            <span>
+              <a href="#installation"> Installation and service </a>
+            </span>
+            <span><a href="#faqs">FAQs</a></span></span
+          >
+          <span class="f-cont"
+            >Contact Us <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i
+          ></span>
+        </div>
+      </div>
+
+      <!--End of footer-->
+    </div>
+    <!--End of home-->
+  </body>
+</html>
+<script>
+  const links = document.querySelectorAll("ul .top-nav li a");
+  const currentUrl = window.location.href;
+
+  links.forEach((link) => {
+    if (currentUrl.includes(link.getAttribute("href"))) {
+      link.classList.add("active");
+    }
+  });
+</script>
+<script>
+function showSidebar() {
+  const sidebar=document.querySelector('.side-bar');
+  sidebar.style.display='flex';
+}
+function hideSidebar() {
+  const sidebar=document.querySelector('.side-bar');
+  sidebar.style.display='none';
+}
+
+</script>

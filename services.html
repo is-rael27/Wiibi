@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+   
+    <link rel="icon" type="image/x-icon" href="/images/wiibilogo.png">
+    <title>Wiibi Energy</title>
+  </head>
+  <body style="background-color: white;">
+    <!--top nav bar-->
+    <nav class="navbar">
+      <ul class="top-nav">
+        <span class="brand-name">
+          <img src="images/wiibilogo.png" alt="" />
+          <a href="#">Wiibi Energy</a></span
+        >
+        <span>
+          <li><a href="home.html" class="nav-link" active>Home</a></li>
+
+          <li><a href="packages.html" class="nav-link">Packages</a></li>
+          <li><a href="projects.html" class="nav-link">Projects</a></li>
+          <li><a href="services.html" class="nav-link">Services</a></li>
+          <li><a href="about.html" class="nav-link">About Us</a></li>
+          <li>
+            <a href="http://wiibi.org/" class="nav-link">Contact Us</a>
+          </li></span
+        >
+        <span onclick=showSidebar() class="menu-btnn" ><svg xmlns="http://www.w3.org/2000/svg" height="29" viewBox="0 -960 960 960" width="29" fill="#000000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></span>
+        <a href="#" class="but">Get a Quote</a>
+      </ul>
+       <ul class="side-bar">
+    <li onclick=hideSidebar() >   <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg> </li>
+          <li><a href="home.html" class="nav-link" active>Home</a></li>
+
+          <li><a href="packages.html" class="nav-link">Packages</a></li>
+          <li><a href="projects.html" class="nav-link">Projects</a></li>
+          <li><a href="services.html" class="nav-link">Services</a></li>
+          <li><a href="about.html" class="nav-link">About Us</a></li>
+          <li><a href="http://wiibi.org/" class="nav-link">Contact Us</a></li></span
+        >
+      
+      </ul>
+    
+    </nav>
+    <div class="services">
+      <h1>Installation and Service</h1>
+      <p>How we work</p>
+<div class="image-icon">
+  <div> <img src="images/icon1.png" alt="#"></div>
+  <div><img src="images/icon2.png" alt="#"></div>
+  <div><img src="images/icon3.png" alt="#"></div>
+  <div><img src="images/icon4.png" alt="#"></div>
+  <div><img src="images/icon5.png" alt="#"></div>
+  <div><img src="images/icon6.png" alt="#"></div>
+</div>
+
+ <div class="services-bottom">
+         <h2>Do you have any questions? <br>Contact our friendly team today! <br> <br>
+          <a href="#"> Get a quote <i class="fas fa-angles-right"></i></a></h2>
+        <div class="image"> <img src="images/wiibiprojects.png" alt="#"></div>
+       </div>
+    <!--footer-->
+    <div class="footer">
+      <div class="footer-head">Our Motto : Empowering tomorrow , today.</div>
+      <div class="footer-info">
+        <span>Wiibi Limited </span>
+        <span class="footer-trio">
+          <span><a href="#packages"> Packages & Pricing</a></span>
+          <span>
+            <a href="#installation"> Installation and service </a>
+          </span>
+          <span><a href="#faqs">FAQs</a></span></span
+        >
+        <span class="f-cont"
+          >Contact Us <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-linkedin"></i
+        ></span>
+      </div>
+    </div>
+  </body>
+</html>
+<script>
+function showSidebar() {
+  const sidebar=document.querySelector('.side-bar');
+  sidebar.style.display='flex';
+}
+function hideSidebar() {
+  const sidebar=document.querySelector('.side-bar');
+  sidebar.style.display='none';
+}
+
+</script>

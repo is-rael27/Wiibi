@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="icon" type="image/x-icon" href="/images/wiibilogo.png" />
+    <title>Wiibi Energy</title>
+  </head>
+  <body style="background-color: white">
+    <!--top nav bar-->
+      <nav class="navbar">
+      <ul class="top-nav">
+        <span class="brand-name">
+          <img src="images/wiibilogo.png" alt="" />
+          <a href="#">Wiibi Energy</a></span
+        >
+        <span>
+          <li><a href="home.html" class="nav-link" active>Home</a></li>
+
+          <li><a href="packages.html" class="nav-link">Packages</a></li>
+          <li><a href="projects.html" class="nav-link">Projects</a></li>
+          <li><a href="services.html" class="nav-link">Services</a></li>
+          <li><a href="about.html" class="nav-link">About Us</a></li>
+          <li>
+            <a href="http://wiibi.org/" class="nav-link">Contact Us</a>
+          </li></span
+        >
+        <span onclick=showSidebar() class="menu-btnn" ><svg xmlns="http://www.w3.org/2000/svg" height="29" viewBox="0 -960 960 960" width="29" fill="#000000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></span>
+        <a href="#" class="but">Get a Quote</a>
+      </ul>
+       <ul class="side-bar">
+    <li onclick=hideSidebar() >   <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg> </li>
+          <li><a href="home.html" class="nav-link" active>Home</a></li>
+
+          <li><a href="packages.html" class="nav-link">Packages</a></li>
+          <li><a href="projects.html" class="nav-link">Projects</a></li>
+          <li><a href="services.html" class="nav-link">Services</a></li>
+          <li><a href="about.html" class="nav-link">About Us</a></li>
+          <li><a href="http://wiibi.org/" class="nav-link">Contact Us</a></li></span
+        >
+      
+      </ul>
+    </nav>
+    <div class="packages">
+      <h1>Packages and Pricing</h1>
+      <p class="pack-head-p">
+        We have packages designed for efficiency and saving money.
+      </p>
+      <div class="tab-buttons">
+        <button class="tab-btn active" onclick="showTab(event,'Wiibihome')">
+          Wiibi Home
+        </button>
+        <button class="tab-btn" onclick="showTab(event,'Wiibibusiness')">
+          Wiibi Reserve
+        </button>
+        <!-- <button class="tab-btn" onclick="showTab(event,'Wiibireserve')">
+          Wiibi Reserve
+        </button> -->
+      </div>
+      <div id="Wiibihome" class="tab-content active">
+        <div class="top swiper">
+          <div class="card-wrapper">
+            <ul class="class-list swiper-wrapper" style="list-style-type: none">
+              <li class="card-item swiper-slide">
+                <div class="firstdiv2">
+                  <h2>Basic Solar <span class="p">(mini)</span></h2>
+                  <div>
+                    <ul>
+                      <li>1 kva inverter</li>
+                      <li>1 220 wet battery</li>
+                      <li>550w solar panels</li>
+                      <li>Wiring and Installation</li>
+                    </ul>
+                  </div>
+                  <span class="middle-class">
+                    <h5>To Power</h5>
+                    <p><img src="images/tv2.png" alt="" />Tv</p>
+                    <p><img src="images/fan.png" alt="" /> Fan</p>
+                    <p><img src="images/bulb.png" alt="" />Lights</p>
+                    <p><img src="images/smartpump.png" alt="" />Smart Pump</p>
+                  </span>
+
+                  <span class="bottom-class">
+                    <p style="margin-top: 130px">
+                      <img src="images/verified.png" alt="lol" /> Free Home
+                      Delivery
+                    </p>
+                    <p>
+                      <img src="images/verified.png" alt="lol" />1 year warranty
+                    </p>
+                  </span>
+                  <span class="cost-section" style="margin: 10px 0">
+                    <p class="amt">N570,000</p>
+                    <p class="strike">N700,000</p>
+                    <p class="percent">18% off</p>
+                  </span>
+                  <button>Buy</button>
+                </div>
+              </li>
+              <li class="card-item swiper-slide">
+                <div class="firstdiv2">
+                  <h2>Standard</h2>
+                  <div>
+                    <ul>
+                      <li>2.5 pure sine wave inverter</li>
+                      <li>2x 220AH wet battery</li>
+                      <li>1650 Half cut solar panels</li>
+                      <li>MPPT Solar Panel</li>
+                      <li>Wiring and Installation</li>
+                    </ul>
+                  </div>
+                  <span class="middle-class">
+                    <h5>To Power</h5>
+                    <p><img src="images/tv2.png" alt="" />Tv</p>
+                    <p><img src="images/fan.png" alt="" /> Fan</p>
+                    <p><img src="images/bulb.png" alt="" />Lights</p>
+                    <p><img src="images/smartpump.png" alt="" />Smart Pump</p>
+
+                    <p>
+                      <img src="images/acondition.png" alt="" /> Air Conditioner
+                    </p>
+                  </span>
+
+                  <span class="bottom-class">
+                    <p style="margin-top: 80px">
+                      <img src="images/verified.png" alt="lol" /> Free Home
+                      Delivery
+                    </p>
+                    <p>
+                      <img src="images/verified.png" alt="lol" />1 year warranty
+                    </p>
+                  </span>
+                  <p style="color: black; font-weight: 900; margin: 10px 0">
+                    N1,200,000
+                  </p>
+                  <button>Buy</button>
+                </div>
+              </li>
+
+              <li class="card-item swiper-slide">
+                <div class="firstdiv2">
+                  <h2>Advance</h2>
+                  <div>
+                    <ul>
+                      <li>3.5 kva inverter</li>
+                      <li>4x 220AH wet battery</li>
+                      <li>3300w Half cut solar panels</li>
+
+                      <li>Wiring and Installation</li>
+                    </ul>
+                  </div>
+                  <span class="middle-class">
+                    <h5>To Power</h5>
+                    <p><img src="images/tv2.png" alt="" />Tv</p>
+                    <p><img src="images/fan.png" alt="" /> Fan</p>
+                    <p><img src="images/bulb.png" alt="" />Lights</p>
+                    <p><img src="images/gadgets.png" alt="" />Gadgets</p>
+                    <p><img src="images/smartpump.png" alt="" />Smart Pump</p>
+
+                    <p>
+                      <img src="images/acondition.png" alt="" /> Air Conditioner
+                    </p>
+
+                    <p><img src="images/fridge.png" alt="" />Fridge</p>
+                  </span>
+
+                  <span class="bottom-class">
+                    <p style="margin-top: 50px">
+                      <img src="images/verified.png" alt="lol" /> Free Home
+                      Delivery
+                    </p>
+                    <p>
+                      <img src="images/verified.png" alt="lol" />1 year warranty
+                    </p>
+                  </span>
+                  <span class="cost-section" style="margin: 10px 0">
+                    <p class="amt">N570,000</p>
+                    <p class="strike">N700,000</p>
+                    <p class="percent">18% off</p>
+                  </span>
+                  <button>Buy</button>
+                </div>
+              </li>
+
+              <li class="card-item swiper-slide">
+                <div class="firstdiv2">
+                  <h2>Classic</h2>
+                  <div>
+                    <ul>
+                      <li>5 kva inverter</li>
+                      <li>4x 220AH wet battery</li>
+                      <li>3300w solar panels</li>
+                      <li>MPPT Solar Panel Charge</li>
+                      <li>Wiring and Installation</li>
+                    </ul>
+                  </div>
+                  <span class="middle-class">
+                    <h5>To Power</h5>
+                    <p><img src="images/tv2.png" alt="" />Tv</p>
+                    <p><img src="images/fan.png" alt="" /> Fan</p>
+                    <p><img src="images/bulb.png" alt="" />Lights</p>
+                    <p><img src="images/gadgets.png" alt="" />Gadgets</p>
+                    <p><img src="images/smartpump.png" alt="" />Smart Pump</p>
+
+                    <p>
+                      <img src="images/acondition.png" alt="" /> Air Conditioner
+                    </p>
+
+                    <p><img src="images/fridge.png" alt="" />Fridge</p>
+                  </span>
+
+                  <span class="bottom-class">
+                    <p>
+                      <img src="images/verified.png" alt="lol" /> Free Home
+                      Delivery
+                    </p>
+                    <p>
+                      <img src="images/verified.png" alt="lol" />1 year warranty
+                    </p>
+                  </span>
+                  <p style="margin: 10px 0; color: black; font-weight: 900">
+                    N2,300,000
+                  </p>
+                  <button>Buy</button>
+                </div>
+              </li>
+            </ul>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+      <!--wiibi reserve-->
+      <div id="Wiibibusiness" class="tab-content">
+        <div class="top swiper">
+          <div class="card-wrapper">
+            <ul class="class-list swiper-wrapper" style="list-style-type: none">
+              <li class="card-item swiper-slide">
+                <div class="firstdiv2">
+                  <h2>Back Up Power <span class="p">1.0</span></h2>
+                  <div>
+                    <ul>
+                      <li>1 kva inverter</li>
+                      <li>1x 220 wet battery</li>
+                      <li>Wiring and Installation</li>
+                    </ul>
+                  </div>
+                  <span class="middle-class">
+                    <h5>To Power</h5>
+                    <p><img src="images/tv2.png" alt="" />Tv</p>
+                    <p><img src="images/fan.png" alt="" />Fan</p>
+                    <p><img src="images/bulb.png" alt="" />Lights</p>
+                    <p><img src="images/gadgets.png" alt="" />Gadgets</p>
+                    <p><img src="images/smartpump.png" alt="" /> Smart Pump</p>
+                    <p><img src="images/fridge.png" alt="" /> Fridge</p>
+                    <p>
+                      <img src="images/acondition.png" alt="" /> Air Conditioner
+                    </p>
+                  </span>
+
+                  <span class="bottom-class">
+                    <p style="margin-top: 80px">
+                      <img src="images/verified.png" alt="lol" width="5%" />
+                      Free Home Delivery
+                    </p>
+                    <p>
+                      <img src="images/verified.png" alt="lol" width="5%" />1
+                      year warranty
+                    </p>
+                  </span>
+                  <p class="amt-inve">N350,000</p>
+                  <button>Buy</button>
+                </div>
+              </li>
+              <li class="card-item swiper-slide">
+                <div class="firstdiv2">
+                  <h2>Back Up Power <span class="p">1.0</span></h2>
+                  <div>
+                    <ul>
+                      <li>1.7kva inverter</li>
+                      <li>2x 220AH wet battery</li>
+
+                      <li>Wiring and Installation</li>
+                    </ul>
+                  </div>
+                  <span class="middle-class">
+                    <h5>To Power</h5>
+                    <p><img src="images/tv2.png" alt="" />Tv</p>
+                    <p><img src="images/fan.png" alt="" />Fan</p>
+                    <p><img src="images/bulb.png" alt="" />Lights</p>
+                    <p><img src="images/gadgets.png" alt="" />Gadgets</p>
+                    <p><img src="images/smartpump.png" alt="" /> Smart Pump</p>
+                    <p><img src="images/fridge.png" alt="" /> Fridge</p>
+                    <p>
+                      <img src="images/acondition.png" alt="" /> Air Conditioner
+                    </p>
+                  </span>
+
+                  <span class="bottom-class">
+                    <p style="margin-top: 70px">
+                      <img src="images/verified.png" alt="lol" /> Free Home
+                      Delivery
+                    </p>
+                    <p>
+                      <img src="images/verified.png" alt="lol" />1 year warranty
+                    </p>
+                  </span>
+                  <p class="amt-inve">N545,000</p>
+                  <button>Buy</button>
+                </div>
+              </li>
+
+              <li class="card-item swiper-slide">
+                <div class="firstdiv2">
+                  <h2>Back Up Power <span class="p">3.0</span></h2>
+                  <div>
+                    <ul>
+                      <li>5 kva inverter</li>
+                      <li>4x 220AH wet battery</li>
+                      <li>3300w solar panels</li>
+                      <li>MPPT Solar Panel Charge</li>
+                      <li>Wiring and Installation</li>
+                    </ul>
+                  </div>
+                  <span class="middle-class">
+                    <h5>To Power</h5>
+                    <p><img src="images/tv2.png" alt="" />Tv</p>
+                    <p><img src="images/fan.png" alt="" />Fan</p>
+                    <p><img src="images/bulb.png" alt="" />Lights</p>
+                    <p><img src="images/gadgets.png" alt="" />Gadgets</p>
+                    <p><img src="images/smartpump.png" alt="" /> Smart Pump</p>
+                    <p><img src="images/fridge.png" alt="" /> Fridge</p>
+                    <p>
+                      <img src="images/acondition.png" alt="" /> Air Conditioner
+                    </p>
+                  </span>
+
+                  <span class="bottom-class">
+                    <p>
+                      <img src="images/verified.png" alt="lol" /> Free Home
+                      Delivery
+                    </p>
+                    <p>
+                      <img src="images/verified.png" alt="lol" />1 year warranty
+                    </p>
+                  </span>
+                  <p class="amt-inve">N865,000</p>
+                  <button>Buy</button>
+                </div>
+              </li>
+            </ul>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+      <div id="Wiibireserve" class="tab-content swiper"></div>
+    </div>
+
+    <!--footer-->
+    <div class="footer">
+      <div class="footer-head">Our Motto : Empowering tomorrow , today.</div>
+      <div class="footer-info">
+        <span>Wiibi Limited </span>
+        <span class="footer-trio">
+          <span><a href="#packages"> Packages & Pricing</a></span>
+          <span>
+            <a href="#installation"> Installation and service </a>
+          </span>
+          <span><a href="#faqs">FAQs</a></span></span
+        >
+        <span class="f-cont"
+          >Contact Us <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-linkedin"></i
+        ></span>
+      </div>
+    </div>
+
+    <!--End of footer-->
+  </body>
+</html>
+<script>
+  function showTab(event, tabName) {
+    document.querySelectorAll(".tab-content").forEach((tab) => {
+      tab.classList.remove("active");
+    });
+
+    document.querySelectorAll(".tab-btn").forEach((btn) => {
+      btn.classList.remove("active");
+    });
+    document.getElementById(tabName).classList.add("active");
+    event.currentTarget.classList.add("active");
+  }
+</script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+  new Swiper(".card-wrapper", {
+    loop: true,
+    spaceBetween: 30,
+
+    // If we need pagination
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+      dynamicBullets: true,
+    },
+
+    // Navigation arrows
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+      0: {
+        slidesPerView: 1,
+      },
+
+      768: {
+        slidesPerView: 2,
+      },
+      1024: {
+        slidesPerView: 3,
+      },
+    },
+  });
+</script>
+<script>
+  function showSidebar() {
+    const sidebar = document.querySelector(".side-bar");
+    sidebar.style.display = "flex";
+  }
+  function hideSidebar() {
+    const sidebar = document.querySelector(".side-bar");
+    sidebar.style.display = "none";
+  }
+</script>
